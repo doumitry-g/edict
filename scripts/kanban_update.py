@@ -44,8 +44,9 @@ from file_lock import atomic_json_read, atomic_json_update  # noqa: E402
 from utils import now_iso  # noqa: E402
 
 STATE_ORG_MAP = {
-    'Taizi': '太子', 'Zhongshu': '中书省', 'Menxia': '门下省', 'Assigned': '尚书省',
-    'Doing': '执行中', 'Review': '尚书省', 'Done': '完成', 'Blocked': '阻塞',
+    'Taizi': '太子', 'Zhongshu': '中书省', 'Menxia': '门下省',
+    'Assigned': '尚书省', 'Doing': '执行中', 'Review': '尚书省',
+    'Next': '尚书省', 'Done': '完成', 'Blocked': '阻塞',
 }
 
 _STATE_AGENT_MAP = {
